@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  color: #f5f5f5;
+  background: #242831;
+  margin: 0;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+figure {
+  background: white;
+  display: block;
+  margin: 1.5em;
+  padding: .7em;
+  background: #1e2129;
+}
+
+figure blockquote {
+  padding: .5em;
+  font-size: 1.3em;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+
+figure figcaption {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: .9em;
+  text-transform: uppercase;
+  font-wight: bold;
+  color: grey;
+}
+
+.glider-contain {
+  width: 85%;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.glider-next {
+  right: -50px;
+  top: 50%;
+}
+
+.glider-prev {
+  left: -40px;
+  top: 50%;
+}
+/*# sourceMappingURL=main.css.map */
